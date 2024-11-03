@@ -7,7 +7,7 @@ public class SumOfOddNum {
 		
 		System.out.println("enter the first number:");
 		int num1=input.nextInt();
-		
+		int strt=num1;
 		System.out.println("enter the second number:");
 		int num2=input.nextInt();
 		int sum=0;
@@ -17,7 +17,8 @@ public class SumOfOddNum {
 		    }
 		    num1+=1;
 		}
-		System.out.println("sum is "+sum);
+		System.out.println("sum of "+strt +" to "+ num2 +" = "+sum);
+
 		
 		
 		
